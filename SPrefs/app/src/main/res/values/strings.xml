@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SPrefs</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="button">Button</string>
+</resources>

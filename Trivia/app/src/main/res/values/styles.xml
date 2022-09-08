@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MainTextStyle">
+        <item name="android:layout_width">106dp</item>
+        <item name="android:layout_height">31dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_height">74dp</item>
+        <item name="android:layout_margin">@dimen/button_margin</item>
+        <item name="android:backgroundTint">#6D101326</item>
+        <item name="android:padding">@dimen/button_padding</item>
+        <item name="android:textColor">@color/button_text_color</item>
+    </style>
+
+    <style name="ScoreBoardStyle" parent="MainTextStyle">
+        <item name="android:layout_width">389dp</item>
+        <item name="android:layout_height">77dp</item>
+        <item name="android:layout_marginTop">124dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>

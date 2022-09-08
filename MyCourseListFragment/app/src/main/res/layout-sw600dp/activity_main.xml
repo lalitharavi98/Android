@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+<!--    <TextView-->
+<!--        android:id="@+id/MyText"-->
+<!--        android:text="Large Screen"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:textSize="48sp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+
+<!--        />-->
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.learningjavaandroid.fragmentMyCourse.CourseListFragment"
+        tools:layout="@layout/course_list_fragment"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"/>
+
+    <FrameLayout
+        android:id="@+id/detailContainer"
+        android:name="com.learningjavaandroid.fragmentMyCourse.course_list_fragment"
+        tools:layout="@layout/course_list_fragment"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"/>
+
+
+
+
+
+</LinearLayout>

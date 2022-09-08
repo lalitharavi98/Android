@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "484287445121",
+    "project_id": "introfirestore-acee1",
+    "storage_bucket": "introfirestore-acee1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484287445121:android:43efd1e62bd80a0eb2b580",
+        "android_client_info": {
+          "package_name": "com.learningjavaandroid.introfirestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484287445121-t0pcvc7sak8rsm35u4uao0j0e10j4luj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDQnGc6ta_v8x1y7GLYTK9dM1cbdg5Blw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484287445121-t0pcvc7sak8rsm35u4uao0j0e10j4luj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

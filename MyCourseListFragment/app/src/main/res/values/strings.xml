@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyCourseListFragment</string>
+    <string name="course_image">Course Image</string>
+    <string name="detail_course_image">Detail course image</string>
+</resources>
